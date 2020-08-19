@@ -2,3 +2,4 @@ plyer
 colored
 apscheduler
 pyautogui
+fpdf
