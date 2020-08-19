@@ -1,1 +1,1 @@
-{"taskcount": 3, "todo": {"0": {"name": "Do this later"}, "1": {"name": "Do this later as well", "alarm": {"time": "16:22", "desc": "Hello World"}}, "2": {"name": "One more task"}}}
+{"taskcount": 1, "todo": {"0": {"name": "Task bro! :)", "priority": "2"}}}

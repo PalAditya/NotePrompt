@@ -12,7 +12,6 @@ def startup():
 def viewjobs():
 
 	current_time = str(datetime.datetime.now().strftime("%H:%M"))
-	print("Apsscheduler worleed " + current_time)
 
 	with open("tasks.json","r") as f:
 
@@ -21,7 +20,6 @@ def viewjobs():
 		tasks = tasklist['todo']
 
 		for v in tasks.values():
-			print(v)
 			if v.get('alarm') is not None and str(v['alarm']['time']) == current_time:
 				plyer.notification.notify(v['name'], v.get('alarm').get('desc'), timeout = 10)
 
