@@ -107,3 +107,6 @@ creds.json
 *.jpg
 *.db
 tasks.json
+
+# macOS files
+.DS_Store
