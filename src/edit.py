@@ -1,7 +1,7 @@
 import json
 import colored
 from colored import stylize
-from pyautogui import typewrite
+# from pyautogui import typewrite
 
 def log(string, color, font="slant", figlet=False):
 	print(stylize(string, colored.fg(color)), end = " ")

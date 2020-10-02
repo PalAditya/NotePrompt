@@ -22,4 +22,4 @@ jobs:
 
     - name: run cli
       run: |
-        python cli.py --help
+        python src/cli.py --help
